@@ -1,1 +1,0 @@
-// Accordion (advanced) [jQuery]

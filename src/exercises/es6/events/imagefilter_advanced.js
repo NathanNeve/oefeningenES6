@@ -1,11 +1,11 @@
 // Image filter (advanced)
 const images = document.querySelectorAll('img');
 
-images.forEach(function (element) {
+images.forEach((element) => {
     element.classList.add('sepia');
 
-    element.addEventListener('click', function (e) {
-        images.forEach(function (afbeelding) {
+    element.addEventListener('click', (e) => {
+        images.forEach((afbeelding) => {
             afbeelding.classList.add('sepia');
         });
         element.classList.remove('sepia');

@@ -9,3 +9,8 @@ const score = [
     { time: 74, team: 'Belgium', scorer: 'D. Mertens' },
     { time: 89, team: 'Belgium', scorer: 'M. Batshuayi' },
 ];
+
+const tbody = document.querySelector('tbody');
+const td = document.createElement('td');
+td.innerHTML = 'hello';
+tbody.prepend(td);

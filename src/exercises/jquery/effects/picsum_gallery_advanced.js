@@ -1,1 +1,0 @@
-// Picsum gallery (advanced) [jQuery]
